@@ -53,8 +53,7 @@ module.exports = {
 		}),
 		new ExtractTextPlugin("[name].css"),
 		new CopyWebpackPlugin([
-			{ from: 'src/assets', to: 'assets' },
-			{ from: 'src/meta'}
+			{ from: 'src/assets', to: 'assets' }
 		])
 	]
 };
